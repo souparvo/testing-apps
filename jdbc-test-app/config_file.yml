@@ -1,0 +1,21 @@
+---
+
+# Set JAVA_HOME
+java_home: /path/to/java
+
+# Full path of the driver to use in the connection
+driver_path: /path/to/driver.jar
+
+# Class to use in the connection
+driver_class: client.Driver.class
+
+# Dict of arguments to include in the connection
+driver_args:
+  arg1: value1
+  arg2: value2
+
+# Connection string of the JDBC
+conn_str: jdbc:driver:example@connection/database
+
+# Query to include in the the execute command of the test script
+query_string: "select * from table"
